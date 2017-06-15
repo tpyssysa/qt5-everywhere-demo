@@ -45,8 +45,8 @@ var positions = [
             {x:1300,  y:-1600, gid: 1, url: "demos/canvasclock/canvasClock.qml", device: 4, name: "Canvas\n Clock"},
             {x:2020,  y:-1520, gid: 1, url: "demos/heartmonitor/main.qml", device: 5, name: "  Heart\nMonitor"},
 
-            {x:1000,  y:-300, gid: 2, url: "demos/calqlatr/Calqlatr.qml", device: 0, name: "Calqlatr"},
-            {x:-500,  y:-250,  gid: 2, url: "demos/touchgallery/main.qml", device: 2, name: "Widget\nGallery"},
+            {x:1000,  y:-300, gid: 2, url: "demos/wearable/wearable.qml", device: 0, name: "Wearable"},
+            {x:-500,  y:-250,  gid: 2, url: "demos/touchgallery/main.qml", device: 2, name: "Qt Quick\nControls\nGallery"},
             {x:200,   y:-200, gid: 2, url: "demos/photosurface/photosurface.qml", device: 6, name: " Photo\nSurface"},
 
             {x:-1800, y:0,   gid: 3, url: "demos/maroon/Maroon.qml", device: 1, name: "Maroon in\n Trouble"},

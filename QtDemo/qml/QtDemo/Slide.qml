@@ -38,12 +38,15 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.5
 import "style.js" as Style
+import "demos/wearable"
 
 Item {
     id: slide
     objectName: "slide"
+
+    property bool synchronous: true // FOR TESTING PURPOSES. REMOVE
 
     property int uid: 0
     property int gid: 0
@@ -177,23 +180,35 @@ Item {
         }
     }
 
+
+
     function load() {
+
         if (!slide.url || slide.loaded) return;
 
         print("CREATING DEMO: "+ slide.url)
         var component = Qt.createComponent(slide.url);
         print ("CREATED: "+slide.url)
-        var incubator = component.incubateObject(demoContainer, { x: 0, y: 0, objectName: "demoApp" });
-        if (incubator.status !== Component.Ready) {
-            incubator.onStatusChanged = function(status) {
-                if (status === Component.Ready) {
-                    print ("Object", incubator.object, "is now ready!");
-                    slide.loaded = true
-                    releaseSplashScreen()
+
+        if (!synchronous) {
+            var incubator = component.incubateObject(demoContainer, { x: 0, y: 0, objectName: "demoApp" });
+            if (incubator.status !== Component.Ready) {
+                incubator.onStatusChanged = function(status) {
+                    if (status === Component.Ready) {
+                        print ("Object", incubator.object, "is now ready!");
+                        slide.loaded = true
+                        releaseSplashScreen()
+                    }
                 }
+            } else {
+                print ("Object", incubator.object, "is ready immediately!");
+                slide.loaded = true
+                releaseSplashScreen()
             }
-        } else {
-            print ("Object", incubator.object, "is ready immediately!");
+        }
+        else {
+            var object = component.createObject(demoContainer, { x: 0, y: 0, objectName: "demoApp" });
+            print ("Object", object, "is ready!");
             slide.loaded = true
             releaseSplashScreen()
         }
@@ -249,4 +264,5 @@ Item {
         rightElementcontainer.createElements()
         bottomElementcontainer.createElements()
     }
+
 }

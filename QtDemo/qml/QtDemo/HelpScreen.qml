@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.5
 import "style.js" as Style
 
 Item {

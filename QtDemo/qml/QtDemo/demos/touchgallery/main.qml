@@ -38,8 +38,8 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.1
-import QtQuick.Controls 1.0
+import QtQuick 2.5
+import QtQuick.Controls 1.4
 import "content"
 
 CustomAppWindow {
@@ -85,9 +85,9 @@ CustomAppWindow {
             x: backButton.x + backButton.width + 10
             anchors.verticalCenter: parent.verticalCenter
             color: "white"
-            text: "Widget Gallery"
+            text: qsTr("Qt Quick Controls")
         }
-}
+    }
 
     ListModel {
         id: pageModel
