@@ -85,7 +85,7 @@ CustomAppWindow {
             x: backButton.x + backButton.width + 10
             anchors.verticalCenter: parent.verticalCenter
             color: "white"
-            text: qsTr("Qt Quick Controls")
+            text: qTr("Qt Quick  Gallery")
         }
     }
 

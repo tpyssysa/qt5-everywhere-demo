@@ -42,18 +42,18 @@ var positions = [
             {x:-1100,  y:-1650, gid: 0, url: "demos/rssnews/rssnews.qml", device: 3, name: "Rss Reader"},
             {x:-2100, y:-1550, gid: 0, url: "demos/gridrssnews/main.qml", device: 7, name: "Rss Reader"},
 
-            {x:1300,  y:-1600, gid: 1, url: "demos/canvasclock/canvasClock.qml", device: 4, name: "Canvas\n Clock"},
-            {x:2020,  y:-1520, gid: 1, url: "demos/heartmonitor/main.qml", device: 5, name: "  Heart\nMonitor"},
+            {x:1300,  y:-1600, gid: 1, url: "demos/3D/planets.qml", device: 4, name: "Planets"},
+            // {x:2020,  y:-1520, gid: 1, url: "demos/heartmonitor/main.qml", device: 5, name: "Heart\nMonitor"},
 
             {x:1000,  y:-300, gid: 2, url: "demos/wearable/wearable.qml", device: 0, name: "Wearable"},
-            {x:-500,  y:-250,  gid: 2, url: "demos/touchgallery/main.qml", device: 2, name: "Qt Quick\nControls\nGallery"},
+            {x:-500,  y:-250,  gid: 2, url: "demos/controlsgallery/main.qml", device: 2, name: "Qt Quick\nControls\nGallery"},
             {x:200,   y:-200, gid: 2, url: "demos/photosurface/photosurface.qml", device: 6, name: " Photo\nSurface"},
 
             {x:-1800, y:0,   gid: 3, url: "demos/maroon/Maroon.qml", device: 1, name: "Maroon in\n Trouble"},
             {x:-2500, y:100, gid: 3, url: "demos/samegame/samegame.qml", device: 1, name: "SameGame"},
 
-            {x:1200,  y:1200, gid: 5, url: "demos/shaders/main.qml", device: 6, name: "Shaders"},
-            {x:2200,  y:1400, gid: 5, url: "demos/particledemo/particledemo.qml", device: 7, name: "Particle\n  Paint"},
+            {x:1200,  y:1200, gid: 5, url: "demos/videoeffects/main.qml", device: 6, name: "Video\nEffects"},
+            {x:2200,  y:1400, gid: 5, url: "demos/particles/particles.qml", device: 7, name: "Particle\nSystem"},
 
             {x:-800,  y:1180, gid: 4, url: "demos/video/main.qml", device: 8, name: "Video"},
             {x:-1600, y:1500, gid: 4, url: "demos/radio/radio.qml", device: 4, name: "Internet\n  Radio"}
@@ -61,7 +61,7 @@ var positions = [
 
 var groupPositions = [
             {x:-2880, y:-2100, width: 2400, height: 1200, textX: 50, textY: 50, name: "Feeds"},
-            {x:700, y:-2100, width: 1700, height: 1200, textX: 50, textY: 50, name: "Canvas"},
+            {x:700, y:-2100, width: 1700, height: 1200, textX: 50, textY: 50, name: "3D"},
             {x:-900, y:-800, width: 2650, height: 1300, textX: 50, textY: 50, name: "Applications"},
             {x:-3000, y:-500, width: 1750, height: 1150, textX: 50, textY: 50, name: "Games"},
             {x:-2200, y:850, width: 2050, height: 1150, textX: 50, textY: 150, name: "Multimedia"},

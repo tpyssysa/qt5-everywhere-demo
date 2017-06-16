@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.7
 import QtQuick.Particles 2.0
 import "style.js" as Style
 //based on the SmokeText component from SameGame

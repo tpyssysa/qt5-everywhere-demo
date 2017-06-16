@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.5
+import QtQuick 2.7
 import QtQuick.Window 2.1
 import "engine.js" as Engine
 import "style.js" as Style

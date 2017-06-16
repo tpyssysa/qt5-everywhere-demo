@@ -1,8 +1,9 @@
 TEMPLATE = app
 
-QT += qml quick xmlpatterns sql svg multimedia
+QT += qml quick xmlpatterns sql svg multimedia quickcontrols2
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    filereader.cpp
 
 ios: RESOURCES += qml_ios.qrc
 !ios: RESOURCES += qml.qrc
@@ -18,3 +19,6 @@ OTHER_FILES += \
     android/AndroidManifest.xml
 
 ios: QMAKE_INFO_PLIST = ios/iosInfo.plist
+
+HEADERS += \
+    filereader.h
