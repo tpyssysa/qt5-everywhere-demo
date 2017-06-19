@@ -54,9 +54,7 @@ Rectangle {
     id: infoSheet
 
     width: 200
-    height: 450
-    anchors.verticalCenter: parent.verticalCenter
-
+    height: 425
     property alias planet: planetText.planet
     property alias radius: infoText.radius
     property alias temperature: infoText.temperature
@@ -77,7 +75,7 @@ Rectangle {
         property string planet: ""
 
         font.family: "Helvetica"
-        font.pixelSize: 32
+        font.pixelSize: 18
         font.weight: Font.Light
         color: "white"
 
@@ -96,9 +94,9 @@ Rectangle {
         property string exampleDetails: ""
 
         font.family: "Helvetica"
-        font.pixelSize: 18
+        font.pixelSize: 10
         font.weight: Font.Light
-        lineHeight: 1.625 * 18
+        lineHeight: 1.625 * 10
         lineHeightMode: Text.FixedHeight
         color: "white"
 

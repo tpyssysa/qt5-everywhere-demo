@@ -700,6 +700,8 @@
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/shadowmap.vert</file>
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/sun.frag</file>
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/sun.vert</file>
+	<file>qml/QtDemo/demos/3D/content/meshes/ring.obj</file>
+	<file>qml/QtDemo/demos/3D/content/meshes/starfield.obj</file>
         <file>qml/QtDemo/demos/3D/planets.qml</file>
     </qresource>
 </RCC>

@@ -193,7 +193,6 @@ Entity {
         light: light
     }
 
-    //! [2]
     QQ2.Component.onCompleted: {
         planetData = Planets.loadPlanetData()
         // Push in the correct order
@@ -219,9 +218,7 @@ Entity {
         changeSpeed(0.2)
         setLookAtOffset(Planets.SUN)
     }
-    //! [2]
 
-    //! [0]
     QQ2.NumberAnimation {
         id: lookAtOffsetAnimation
         target: sceneRoot
@@ -239,7 +236,6 @@ Entity {
         easing.type: Easing.InOutQuint
         duration: 2500
     }
-    //! [0]
 
     QQ2.Behavior on cameraNear {
         QQ2.PropertyAnimation {
@@ -445,7 +441,6 @@ Entity {
         cameraDistance = distance
     }
 
-    //! [3]
     function animate(focusedPlanet) {
         if (!ready)
             return
@@ -456,7 +451,6 @@ Entity {
 
         updateCamera(focusedPlanet)
     }
-    //! [3]
 
     function updateCamera(focusedPlanet) {
         // Get the appropriate near plane position for the camera and animate it with QML animations
@@ -495,7 +489,7 @@ Entity {
 
         Mesh {
             id: starfield
-            source: "qrc:/meshes/starfield.obj"
+            source: "qrc:/qml/QtDemo/demos/3D/content/meshes/starfield.obj"
         }
 
         PlanetMaterial {
@@ -503,7 +497,7 @@ Entity {
             effect: effectD
             ambientLight: ambientStrengthStarfield
             specularColor: Qt.rgba(0.0, 0.0, 0.0, 1.0)
-            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscope/galaxy_starfield.jpg"
+            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscop/galaxy_starfield.jpg"
             shininess: 1000000.0
         }
 
@@ -622,7 +616,6 @@ Entity {
 
     // EARTH
 
-    //! [1]
     Entity {
         id: earthEntity
 
@@ -654,7 +647,6 @@ Entity {
 
         components: [ earth, materialEarth, transformEarth ]
     }
-    //! [1]
 
     // EARTH CLOUDS
 

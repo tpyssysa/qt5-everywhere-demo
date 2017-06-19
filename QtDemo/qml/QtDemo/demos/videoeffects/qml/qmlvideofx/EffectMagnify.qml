@@ -106,6 +106,8 @@ Effect {
 
     MouseArea {
         anchors.fill: parent
-        onPositionChanged: { root.posX = mouse.x; root.posY = root.targetHeight - mouse.y }
+        onPositionChanged: {
+            root.posX = mouse.x; root.posY = root.targetHeight - mouse.y
+        }
     }
 }

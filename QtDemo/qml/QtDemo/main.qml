@@ -48,8 +48,8 @@ Window {
 
     onWidthChanged: app.calculateScales();
     onHeightChanged: app.calculateScales();
-    width: 640
-    height: 480
+//    width: 640
+//    height: 480
     Rectangle {
         id: app
         anchors.fill: parent

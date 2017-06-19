@@ -85,7 +85,7 @@ Item {
             updatePlanetInfo()
         } else {
             updatePlanetInfo()
-            info.opacity = 1
+            info.opacity = 0.8
         }
 
         solarsystem.changePlanetFocus(oldPlanet, focusedPlanet)
@@ -252,10 +252,10 @@ Item {
 
     InfoSheet {
         id: info
-        width: 400
+        width: 200
         anchors.right: planetButtonView.left
-        anchors.rightMargin: 40
-        opacity: 1
+        anchors.rightMargin: 20
+        opacity: 1.0
 
         // Set initial information for Solar System
         planet: "Solar System"
@@ -270,7 +270,8 @@ Item {
     }
 
     function updatePlanetInfo() {
-        info.width = 200
+        info.width = 100
+        info.anchors.rightMargin = 15
 
         if (focusedPlanet !== 100) {
             info.planet = planetModel.get(focusedPlanet).name
@@ -379,9 +380,7 @@ Item {
             value: 1
             minimumValue: 1
             maximumValue: 2
-            //! [2]
             onValueChanged: solarsystem.changeCameraDistance(value)
-            //! [2]
 
             property bool panningEnabled: false
             signal swipeUp()

@@ -62,7 +62,7 @@ Mesh {
     property var faceVertexUvs: []
     */
 
-    source: "qrc:/meshes/ring.obj"
+    source: "qrc:/qml/QtDemo/demos/3D/content/meshes/ring.obj"
 
     // Converted from the _RingGeometry() method in the threex.planets.js extension.
     /*
