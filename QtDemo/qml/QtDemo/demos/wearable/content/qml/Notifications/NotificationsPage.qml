@@ -78,6 +78,7 @@ ListView {
         height: missedCallsView.height
         width: missedCallsView.width / 2
         anchors.left: parent.horizontalCenter
+        // anchors.leftMargin: -20
 
         Column {
             spacing: 15
@@ -92,14 +93,14 @@ ListView {
                 text: model.name
                 anchors.horizontalCenter: parent.horizontalCenter
                 font.bold: true
-                font.pixelSize: UIStyle.fontSizeS
+                font.pixelSize: UIStyle.fontSizeXS
                 color: UIStyle.colorQtGray1
             }
 
             Text {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: date + " " + time
-                font.pixelSize: UIStyle.fontSizeXS
+                font.pixelSize: UIStyle.fontSizeXXS
                 font.italic: true
                 color: UIStyle.colorQtGray2
             }

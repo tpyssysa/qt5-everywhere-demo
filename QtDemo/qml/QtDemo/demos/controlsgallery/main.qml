@@ -97,7 +97,7 @@ Page {
                         stackView.pop()
                         listView.currentIndex = -1
                     } else {
-                        drawer.open()
+                        drawer.width = Qt.binding(function() { return Math.min(window.width, window.height) / 3 * 2; })
                     }
                 }
             }
@@ -135,12 +135,16 @@ Page {
         }
     }
 
-    Drawer {
+    Rectangle {
         id: drawer
-        x: 100
-        width: Math.min(window.width, window.height) / 3 * 2
+        width: 0
         height: window.height
-        interactive: stackView.depth === 1
+        clip: true
+        z: 1
+
+        Behavior on width {
+            NumberAnimation { }
+        }
 
         ListView {
             id: listView
@@ -156,7 +160,7 @@ Page {
                 onClicked: {
                     listView.currentIndex = index
                     stackView.push(model.source)
-                    drawer.close()
+                    drawer.width = 0;
                 }
             }
 
@@ -164,7 +168,7 @@ Page {
                 ListElement { title: "BusyIndicator"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/BusyIndicatorPage.qml" }
                 ListElement { title: "Button"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/ButtonPage.qml" }
                 ListElement { title: "CheckBox"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/CheckBoxPage.qml" }
-                ListElement { title: "ComboBox"; source: "qrc:/qml/QtDemo/demos/controlsgallery/conten/tpages/ComboBoxPage.qml" }
+                ListElement { title: "ComboBox"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/ComboBoxPage.qml" }
                 ListElement { title: "DelayButton"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/DelayButtonPage.qml" }
                 ListElement { title: "Dial"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/DialPage.qml" }
                 ListElement { title: "Dialog"; source: "qrc:/qml/QtDemo/demos/controlsgallery/content/pages/DialogPage.qml" }
