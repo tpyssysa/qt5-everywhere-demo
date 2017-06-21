@@ -5,8 +5,7 @@ QT += qml quick xmlpatterns sql svg multimedia quickcontrols2
 SOURCES += main.cpp \
     filereader.cpp
 
-ios: RESOURCES += qml_ios.qrc
-!ios: RESOURCES += qml.qrc
+RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -17,8 +16,6 @@ QTPLUGIN += qsqlite
 
 OTHER_FILES += \
     android/AndroidManifest.xml
-
-ios: QMAKE_INFO_PLIST = ios/iosInfo.plist
 
 HEADERS += \
     filereader.h

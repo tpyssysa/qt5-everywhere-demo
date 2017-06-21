@@ -39,8 +39,8 @@
 ****************************************************************************/
 
 var positions = [
-            {x:-1100,  y:-1650, gid: 0, url: "demos/rssnews/rssnews.qml", device: 3, name: "Rss Reader"},
-            {x:-2100, y:-1550, gid: 0, url: "demos/gridrssnews/main.qml", device: 7, name: "Rss Reader"},
+            {x:-1500,  y:-1550, gid: 0, url: "qrc:/qml/QtDemo/demos/heartmonitor/main.qml", device: 3, name: "Heartrate\nMonitor"},
+//            {x:-2100, y:-1550, gid: 0, url: "demos/gridrssnews/main.qml", device: 7, name: "Rss Reader"},
 
             {x:1300,  y:-1600, gid: 3, url: "demos/maroon/Maroon.qml", device: 1, name: "Maroon in\n Trouble"},
             {x:2020,  y:-1520, gid: 3, url: "demos/samegame/samegame.qml", device: 1, name: "SameGame"},
@@ -59,9 +59,9 @@ var positions = [
         ]
 
 var groupPositions = [
-            {x:-2880, y:-2100, width: 2400, height: 1200, textX: 50, textY: 50, name: "Feeds"},
+            {x:-2380, y:-2100, width: 2400, height: 1200, textX: 50, textY: 50, name: "Canvas"},
             // {x:700, y:-2100, width: 1700, height: 1200, textX: 50, textY: 50, name: "3D"},
-            {x:-3000, y:-500, width: 1750, height: 1150, textX: 50, textY: 50, name: "3D"},
+            {x:-2800, y:-500, width: 1750, height: 1150, textX: 50, textY: 50, name: "3D"},
 
             {x:-900, y:-800, width: 2650, height: 1300, textX: 50, textY: 50, name: "Applications"},
             // {x:-3000, y:-500, width: 1750, height: 1150, textX: 50, textY: 50, name: "Games"},
