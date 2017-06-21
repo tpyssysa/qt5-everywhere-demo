@@ -20,7 +20,10 @@ int main(int argc, char *argv[])
     format.setDepthBufferSize(24);
     format.setStencilBufferSize(8);
     format.setSamples(4);
-    QSurfaceFormat::setDefaultFormat(format);
+    // TODO
+    // Setting the format breaks video effects demo
+    // Not setting the format causes "FBO incomplete" error in the planets demo
+    // QSurfaceFormat::setDefaultFormat(format);
 
     QQuickStyle::setStyle("Material");
 

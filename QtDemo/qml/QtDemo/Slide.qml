@@ -186,29 +186,29 @@ Item {
 
         if (!slide.url || slide.loaded) return;
 
-        print("CREATING DEMO: "+ slide.url)
+        // print("CREATING DEMO: "+ slide.url)
         var component = Qt.createComponent(slide.url);
-        print ("CREATED: "+slide.url)
+        // print ("CREATED: "+slide.url)
 
         if (!synchronous) {
             var incubator = component.incubateObject(demoContainer, { x: 0, y: 0, objectName: "demoApp" });
             if (incubator.status !== Component.Ready) {
                 incubator.onStatusChanged = function(status) {
                     if (status === Component.Ready) {
-                        print ("Object", incubator.object, "is now ready!");
+                        // print ("Object", incubator.object, "is now ready!");
                         slide.loaded = true
                         releaseSplashScreen()
                     }
                 }
             } else {
-                print ("Object", incubator.object, "is ready immediately!");
+                // print ("Object", incubator.object, "is ready immediately!");
                 slide.loaded = true
                 releaseSplashScreen()
             }
         }
         else {
             var object = component.createObject(demoContainer, { x: 0, y: 0, objectName: "demoApp" });
-            print ("Object", object, "is ready!");
+            // print ("Object", object, "is ready!");
             slide.loaded = true
             releaseSplashScreen()
         }

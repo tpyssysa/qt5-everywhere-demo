@@ -51,11 +51,11 @@ var positions = [
 
             {x:-2150, y:0, gid: 1, url: "demos/3D/planets.qml", device: 4, name: "Planets"},
 
-            {x:1200,  y:1200, gid: 5, url: "demos/videoeffects/main.qml", device: 6, name: "Video\nEffects"},
-            {x:2200,  y:1400, gid: 5, url: "demos/particles/particles.qml", device: 7, name: "Particle\nSystem"},
+            {x:1200,  y:1200, gid: 4, url: "demos/videoeffects/main.qml", device: 6, name: "Video\nEffects"},
+            {x:2200,  y:1400, gid: 4, url: "demos/particles/particles.qml", device: 7, name: "Particle\nSystem"},
 
-            {x:-800,  y:1180, gid: 4, url: "demos/video/main.qml", device: 8, name: "Video"},
-            {x:-1600, y:1500, gid: 4, url: "demos/radio/radio.qml", device: 4, name: "Internet\n  Radio"}
+            {x:-800,  y:1180, gid: 5, url: "demos/video/main.qml", device: 8, name: "Video"},
+            {x:-1600, y:1500, gid: 5, url: "demos/radio/radio.qml", device: 4, name: "Internet\n  Radio"}
         ]
 
 var groupPositions = [
@@ -80,8 +80,8 @@ var demoWidths = [269, 322, 322, 642, 480, 482, 688, 691, 726]
 var demoHeights = [404, 482, 482, 402, 320, 322, 431, 432, 456]
 var maskHorizontalOffsets = [1, 1, 1, 1, -52, 1, 1, 1, 1]
 var maskVerticalOffsets = [20, 32, 15, 24, 15, 45, 59, 57, 56]
-var navigationList = [1,0,2,3,4,6,5,7,8,12,11,9,10]
-var groupNavigationList = [0,1,2,3,4,5]
+var navigationList = [1,0,2,3,4,6,5,7,8,9,10]
+var groupNavigationList = [0,1,2,3,5,4]
 var currentDemoIndex = -1
 var currentGroupIndex = -1
 var objects = []

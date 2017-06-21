@@ -17,28 +17,6 @@
         <file>qml/QtDemo/WorldMouseArea.qml</file>
         <file>qml/QtDemo/QtLogo.png</file>
         <file>qml/QtDemo/style.js</file>
-        <file>qml/QtDemo/demos/calqlatr/content/audio/touch.wav</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/icon-back.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/icon-close.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/icon-settings.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/logo.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/paper-edge-left.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/paper-edge-right.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/paper-grip.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/settings-selected-a.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/settings-selected-b.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/touch-green.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/images/touch-white.png</file>
-        <file>qml/QtDemo/demos/calqlatr/content/Button.qml</file>
-        <file>qml/QtDemo/demos/calqlatr/content/calculator.js</file>
-        <file>qml/QtDemo/demos/calqlatr/content/Display.qml</file>
-        <file>qml/QtDemo/demos/calqlatr/content/NumberPad.qml</file>
-        <file>qml/QtDemo/demos/calqlatr/content/StyleLabel.qml</file>
-        <file>qml/QtDemo/demos/calqlatr/Calqlatr.qml</file>
-        <file>qml/QtDemo/demos/canvasclock/canvasClock.qml</file>
-        <file>qml/QtDemo/demos/gridrssnews/main.qml</file>
-        <file>qml/QtDemo/demos/gridrssnews/RssDelegate.qml</file>
-        <file>qml/QtDemo/demos/gridrssnews/ScrollBar.qml</file>
         <file>qml/QtDemo/demos/heartmonitor/heart.png</file>
         <file>qml/QtDemo/demos/heartmonitor/HeartData.js</file>
         <file>qml/QtDemo/demos/heartmonitor/main.qml</file>
@@ -109,19 +87,7 @@
         <file>qml/QtDemo/demos/maroon/content/NewGameScreen.qml</file>
         <file>qml/QtDemo/demos/maroon/content/SoundEffect.qml</file>
         <file>qml/QtDemo/demos/maroon/Maroon.qml</file>
-        <file>qml/QtDemo/demos/particledemo/BootScreenDemo.qml</file>
-        <file>qml/QtDemo/demos/particledemo/particledemo.qml</file>
-        <file>qml/QtDemo/demos/particledemo/ParticleSysComponent.qml</file>
         <file>qml/QtDemo/demos/photosurface/photosurface.qml</file>
-        <file>qml/QtDemo/demos/radio/radio.qml</file>
-        <file>qml/QtDemo/demos/radio/VolumeButton.qml</file>
-        <file>qml/QtDemo/demos/radio/VolumePoint.qml</file>
-        <file>qml/QtDemo/demos/rssnews/content/BusyIndicator.qml</file>
-        <file>qml/QtDemo/demos/rssnews/content/CategoryDelegate.qml</file>
-        <file>qml/QtDemo/demos/rssnews/content/NewsDelegate.qml</file>
-        <file>qml/QtDemo/demos/rssnews/content/RssFeeds.qml</file>
-        <file>qml/QtDemo/demos/rssnews/content/ScrollBar.qml</file>
-        <file>qml/QtDemo/demos/rssnews/rssnews.qml</file>
         <file>qml/QtDemo/demos/samegame/content/levels/level0.qml</file>
         <file>qml/QtDemo/demos/samegame/content/levels/level1.qml</file>
         <file>qml/QtDemo/demos/samegame/content/levels/level2.qml</file>
@@ -174,26 +140,6 @@
         <file>qml/QtDemo/demos/shaders/main.qml</file>
         <file>qml/QtDemo/demos/shaders/ParameterPanel.qml</file>
         <file>qml/QtDemo/demos/shaders/Slider.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/AndroidDelegate.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/ButtonPage.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/CustomAppWindow.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/ProgressBarPage.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/SliderPage.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/TabBarPage.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/content/TextInputPage.qml</file>
-        <file>qml/QtDemo/demos/touchgallery/main.qml</file>
-        <file>qml/QtDemo/demos/video/Content.qml</file>
-        <file>qml/QtDemo/demos/video/ContentVideo.qml</file>
-        <file>qml/QtDemo/demos/video/ControlBar.qml</file>
-        <file>qml/QtDemo/demos/video/ImageButton.qml</file>
-        <file>qml/QtDemo/demos/video/main.qml</file>
-        <file>qml/QtDemo/demos/video/PlaybackControl.qml</file>
-        <file>qml/QtDemo/demos/video/ScrollBar.qml</file>
-        <file>qml/QtDemo/demos/video/SeekControl.qml</file>
-        <file>qml/QtDemo/demos/video/Slider.qml</file>
-        <file>qml/QtDemo/demos/video/VideoDelegate.qml</file>
-        <file>qml/QtDemo/demos/video/VideoSelector.qml</file>
-        <file>qml/QtDemo/demos/video/VolumeControl.qml</file>
         <file>qml/QtDemo/fonts/OFL.txt</file>
         <file>qml/QtDemo/fonts/PatrickHandSC-Regular.ttf</file>
         <file>qml/QtDemo/images/box.png</file>
@@ -239,17 +185,6 @@
         <file>qml/QtDemo/demos/photosurface/images/image3.png</file>
         <file>qml/QtDemo/demos/photosurface/images/image4.png</file>
         <file>qml/QtDemo/demos/photosurface/images/qml-photosurface-example-small.png</file>
-        <file>qml/QtDemo/demos/particledemo/images/particle.png</file>
-        <file>qml/QtDemo/demos/particledemo/images/particle_star.png</file>
-        <file>qml/QtDemo/demos/particledemo/images/qt-logo-green-mask.png</file>
-        <file>qml/QtDemo/demos/particledemo/images/qt-logo-white-mask.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_pause.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_play.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_stop.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_sound_icon.png</file>
-        <file>qml/QtDemo/demos/radio/images/volume.png</file>
-        <file>qml/QtDemo/demos/rssnews/content/images/busy.png</file>
-        <file>qml/QtDemo/demos/rssnews/content/images/scrollbar.png</file>
         <file>qml/QtDemo/demos/samegame/content/gfx/background.png</file>
         <file>qml/QtDemo/demos/samegame/content/gfx/background-puzzle.png</file>
         <file>qml/QtDemo/demos/samegame/content/gfx/bar.png</file>
@@ -295,29 +230,6 @@
         <file>qml/QtDemo/demos/shaders/images/particle-smoke.png</file>
         <file>qml/QtDemo/demos/shaders/images/qt-logo.png</file>
         <file>qml/QtDemo/demos/shaders/images/wallpaper.png</file>
-        <file>qml/QtDemo/demos/particledemo/particle.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/button_default.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/button_pressed.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/navigation_next_item.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/navigation_previous_item.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/tab_selected.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/tabs_standard.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/textinput.png</file>
-        <file>qml/QtDemo/demos/touchgallery/images/toolbar.png</file>
-        <file>qml/QtDemo/demos/video/images/CloseButton.png</file>
-        <file>qml/QtDemo/demos/video/images/PauseButton.png</file>
-        <file>qml/QtDemo/demos/video/images/PlayButton.png</file>
-        <file>qml/QtDemo/demos/video/images/RateButtonForward.png</file>
-        <file>qml/QtDemo/demos/video/images/RateButtonReverse.png</file>
-        <file>qml/QtDemo/demos/video/images/StopButton.png</file>
-        <file>qml/QtDemo/demos/video/images/VolumeDown.png</file>
-        <file>qml/QtDemo/demos/video/images/VolumeUp.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_jens.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_kenneth.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_lars.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_samuel.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_simon.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_thiago.png</file>
         <file>qml/QtDemo/demos/shaders/shaders/billboard.fsh</file>
         <file>qml/QtDemo/demos/shaders/shaders/blackandwhite.fsh</file>
         <file>qml/QtDemo/demos/shaders/shaders/emboss.fsh</file>
@@ -700,8 +612,44 @@
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/shadowmap.vert</file>
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/sun.frag</file>
         <file>qml/QtDemo/demos/3D/content/shaders/gl3/sun.vert</file>
-	<file>qml/QtDemo/demos/3D/content/meshes/ring.obj</file>
-	<file>qml/QtDemo/demos/3D/content/meshes/starfield.obj</file>
+        <file>qml/QtDemo/demos/3D/content/meshes/ring.obj</file>
+        <file>qml/QtDemo/demos/3D/content/meshes/starfield.obj</file>
         <file>qml/QtDemo/demos/3D/planets.qml</file>
+        <file>qml/QtDemo/demos/radio/images/radio_btn_pause.png</file>
+        <file>qml/QtDemo/demos/radio/images/radio_btn_play.png</file>
+        <file>qml/QtDemo/demos/radio/images/radio_btn_stop.png</file>
+        <file>qml/QtDemo/demos/radio/images/radio_sound_icon.png</file>
+        <file>qml/QtDemo/demos/radio/images/volume.png</file>
+        <file>qml/QtDemo/demos/radio/channels.xml</file>
+        <file>qml/QtDemo/demos/radio/radio.qml</file>
+        <file>qml/QtDemo/demos/radio/VolumeButton.qml</file>
+        <file>qml/QtDemo/demos/radio/VolumePoint.qml</file>
+        <file>qml/QtDemo/demos/video/images/CloseButton.png</file>
+        <file>qml/QtDemo/demos/video/images/PauseButton.png</file>
+        <file>qml/QtDemo/demos/video/images/PlayButton.png</file>
+        <file>qml/QtDemo/demos/video/images/RateButtonForward.png</file>
+        <file>qml/QtDemo/demos/video/images/RateButtonReverse.png</file>
+        <file>qml/QtDemo/demos/video/images/StopButton.png</file>
+        <file>qml/QtDemo/demos/video/images/VolumeDown.png</file>
+        <file>qml/QtDemo/demos/video/images/VolumeUp.png</file>
+        <file>qml/QtDemo/demos/video/Content.qml</file>
+        <file>qml/QtDemo/demos/video/ContentVideo.qml</file>
+        <file>qml/QtDemo/demos/video/ControlBar.qml</file>
+        <file>qml/QtDemo/demos/video/ImageButton.qml</file>
+        <file>qml/QtDemo/demos/video/main.qml</file>
+        <file>qml/QtDemo/demos/video/PlaybackControl.qml</file>
+        <file>qml/QtDemo/demos/video/qt5_video_jens.png</file>
+        <file>qml/QtDemo/demos/video/qt5_video_kenneth.png</file>
+        <file>qml/QtDemo/demos/video/qt5_video_lars.png</file>
+        <file>qml/QtDemo/demos/video/qt5_video_samuel.png</file>
+        <file>qml/QtDemo/demos/video/qt5_video_simon.png</file>
+        <file>qml/QtDemo/demos/video/qt5_video_thiago.png</file>
+        <file>qml/QtDemo/demos/video/qt5_videos.xml</file>
+        <file>qml/QtDemo/demos/video/ScrollBar.qml</file>
+        <file>qml/QtDemo/demos/video/SeekControl.qml</file>
+        <file>qml/QtDemo/demos/video/Slider.qml</file>
+        <file>qml/QtDemo/demos/video/VideoDelegate.qml</file>
+        <file>qml/QtDemo/demos/video/VideoSelector.qml</file>
+        <file>qml/QtDemo/demos/video/VolumeControl.qml</file>
     </qresource>
 </RCC>
