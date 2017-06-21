@@ -48,7 +48,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.7 as QQ2
+import QtQuick 2.0 as QQ2
 import Qt3D.Core 2.0
 import Qt3D.Render 2.0
 import Qt3D.Input 2.0
@@ -497,7 +497,7 @@ Entity {
             effect: effectD
             ambientLight: ambientStrengthStarfield
             specularColor: Qt.rgba(0.0, 0.0, 0.0, 1.0)
-            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscop/galaxy_starfield.jpg"
+            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscope/galaxy_starfield.jpg"
             shininess: 1000000.0
         }
 
@@ -900,7 +900,7 @@ Entity {
             effect: shadowMapEffect
             ambientLight: ambientStrengthRing
             specularColor: Qt.rgba(0.01, 0.01, 0.01, 1.0)
-            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscope/uranusringcolortrans.png"
+            diffuseMap: "qrc:/qml/QtDemo/demos/3D/content/images/nasa/uranusringcolortrans.png"
             shininess: shininessBasic
             opacity: 0.4
         }

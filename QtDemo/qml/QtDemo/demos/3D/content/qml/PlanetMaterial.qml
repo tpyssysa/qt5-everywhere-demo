@@ -115,7 +115,7 @@ Material {
                 TextureImage {
                     id: specularTextureImage
                     // Get rid of runtime warnings. It's safe, as the texture just isn't used
-                    source: specularMap !== "" ? specularMap : "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscope/uranusmap.jpg"
+                    source: specularMap !== "" ? specularMap : "qrc:/qml/QtDemo/demos/3D/content/images/uranusmap.jpg"
                 }
             }
         },
@@ -133,7 +133,7 @@ Material {
                 TextureImage {
                     id: normalTextureImage
                     // Get rid of runtime warnings. It's safe, as the texture just isn't used
-                    source: normalMap !== "" ? normalMap : "qrc:/qml/QtDemo/demos/3D/content/images/solarsystemscope/uranusmap.jpg"
+                    source: normalMap !== "" ? normalMap : "qrc:/qml/QtDemo/demos/3D/content/images/uranusmap.jpg"
                 }
             }
         },
