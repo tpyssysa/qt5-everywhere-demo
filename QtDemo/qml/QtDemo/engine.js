@@ -39,7 +39,7 @@
 ****************************************************************************/
 
 var positions = [
-            {x:-1500,  y:-1550, gid: 0, url: "qrc:/qml/QtDemo/demos/heartmonitor/main.qml", device: 3, name: "Heartrate\nMonitor"},
+            {x:-1500,  y:-1550, gid: 0, url: "/demos/heartmonitor/main.qml", device: 3, name: "Heartrate\nMonitor"},
 //            {x:-2100, y:-1550, gid: 0, url: "demos/gridrssnews/main.qml", device: 7, name: "Rss Reader"},
 
             {x:1300,  y:-1600, gid: 3, url: "demos/maroon/Maroon.qml", device: 1, name: "Maroon in\n Trouble"},
@@ -54,8 +54,8 @@ var positions = [
             {x:1200,  y:1200, gid: 4, url: "demos/videoeffects/main.qml", device: 6, name: "Video\nEffects"},
             {x:2200,  y:1400, gid: 4, url: "demos/particles/particles.qml", device: 7, name: "Particle\nSystem"},
 
-            {x:-800,  y:1180, gid: 5, url: "demos/video/main.qml", device: 8, name: "Video"},
-            {x:-1600, y:1500, gid: 5, url: "demos/radio/radio.qml", device: 4, name: "Internet\n  Radio"}
+            {x:-800,  y:1180, gid: 5, url: "demos/surface/main.qml", device: 8, name: "Surface 3D"},
+            {x:-1600, y:1500, gid: 5, url: "demos/polarchart/main.qml", device: 4, name: "Charts"}
         ]
 
 var groupPositions = [
@@ -68,7 +68,7 @@ var groupPositions = [
 
             {x:700, y:-2100, width: 1700, height: 1200, textX: 50, textY: 50, name: "Games"},
 
-            {x:-2200, y:850, width: 2050, height: 1150, textX: 50, textY: 150, name: "Multimedia"},
+            {x:-2200, y:730, width: 2050, height: 1150, textX: 50, textY: 150, name: "Data\n Visualisation"},
             {x:510, y:600, width: 2450, height: 1500, textX: 50, textY: 50, name: "Particles & Shaders"}
         ]
 

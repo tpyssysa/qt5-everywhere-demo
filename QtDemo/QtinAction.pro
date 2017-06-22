@@ -1,6 +1,6 @@
 TEMPLATE = app
 
-QT += qml quick xmlpatterns sql svg multimedia quickcontrols2
+QT += qml charts quick xmlpatterns sql svg multimedia quickcontrols2
 
 SOURCES += main.cpp \
     filereader.cpp
@@ -23,4 +23,8 @@ HEADERS += \
 ANDROID_PACKAGE_SRC_DIR = $$PWD/android
 
 DISTFILES += \
-    android/AndroidManifest.xml
+    android/AndroidManifest.xml \
+    qml/QtDemo/demos/polarchart/main.qml \
+    qml/QtDemo/demos/polarchart/View1.qml \
+    qml/QtDemo/demos/polarchart/View2.qml \
+    qml/QtDemo/demos/polarchart/View3.qml

@@ -651,5 +651,13 @@
         <file>qml/QtDemo/demos/video/VideoDelegate.qml</file>
         <file>qml/QtDemo/demos/video/VideoSelector.qml</file>
         <file>qml/QtDemo/demos/video/VolumeControl.qml</file>
+        <file>qml/QtDemo/demos/surface/Data.qml</file>
+        <file>qml/QtDemo/demos/surface/heightmap.png</file>
+        <file>qml/QtDemo/demos/surface/main.qml</file>
+        <file>qml/QtDemo/demos/surface/NewButton.qml</file>
+        <file>qml/QtDemo/demos/polarchart/main.qml</file>
+        <file>qml/QtDemo/demos/polarchart/View1.qml</file>
+        <file>qml/QtDemo/demos/polarchart/View2.qml</file>
+        <file>qml/QtDemo/demos/polarchart/View3.qml</file>
     </qresource>
 </RCC>
