@@ -58,12 +58,12 @@ Rectangle {
     property string fileName
     property alias volume: content.volume
     property int pixDens: Math.ceil(Screen.pixelDensity)
-    property int itemWidth: 25 * pixDens
-    property int itemHeight: 10 * pixDens
+    property int itemWidth: 15 * pixDens
+    property int itemHeight: 7 * pixDens
     property int windowWidth: parent.width // Screen.desktopAvailableWidth
     property int windowHeight: parent.height // Screen.desktopAvailableHeight
     property int scaledMargin: 2 * pixDens
-    property int fontSize: 5 * pixDens
+    property int fontSize: 3 * pixDens
 
     color: "black"
     anchors.fill: parent
@@ -95,7 +95,6 @@ Rectangle {
             bottom: parent.bottom
             margins: scaledMargin
             leftMargin: scaledMargin
-            bottomMargin: -10
         }
         gripSize: d.gripSize
         height: root.itemHeight * 2
