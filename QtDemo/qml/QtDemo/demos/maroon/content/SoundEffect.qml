@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.7
 //Proxies a SoundEffect if QtMultimedia is installed
 Item {
     id: container

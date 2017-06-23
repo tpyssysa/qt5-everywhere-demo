@@ -37,7 +37,7 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-import QtQuick 2.2
+import QtQuick 2.7
 
 Rectangle {
     id: root

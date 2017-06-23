@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.7
 import "HeartData.js" as Data
 
 Rectangle {
@@ -264,3 +264,4 @@ Rectangle {
         Data.fillHeartData(Math.max(100,Math.floor(app.width*0.5)))
     }
 }
+

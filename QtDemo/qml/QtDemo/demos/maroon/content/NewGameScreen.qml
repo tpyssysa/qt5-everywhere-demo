@@ -38,7 +38,7 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.2
+import QtQuick 2.7
 
 // This is the first screen.
 // It shows the logo and emit a startButtonClicked signal

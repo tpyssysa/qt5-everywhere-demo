@@ -48,8 +48,8 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.6
-import QtQuick.Controls 2.0
+import QtQuick 2.7
+import QtQuick.Controls 2.2
 
 Page {
     id: page

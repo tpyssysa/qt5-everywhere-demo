@@ -27,18 +27,16 @@
 **
 ****************************************************************************/
 
-import QtQuick 2.1
+import QtQuick 2.7
 
 Item {
     property alias model: dataModel
 
-    //! [0]
     ListModel {
         id: dataModel
         ListElement{ longitude: "0"; latitude: "0"; height: "124"; }
         ListElement{ longitude: "0"; latitude: "1"; height: "125"; }
         ListElement{ longitude: "0"; latitude: "2"; height: "124"; }
-        //! [0]
         ListElement{ longitude: "0"; latitude: "3"; height: "118"; }
         ListElement{ longitude: "0"; latitude: "4"; height: "112"; }
         ListElement{ longitude: "0"; latitude: "5"; height: "111"; }

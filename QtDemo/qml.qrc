@@ -114,32 +114,6 @@
         <file>qml/QtDemo/demos/samegame/content/SmokeText.qml</file>
         <file>qml/QtDemo/demos/samegame/samegame.qml</file>
         <file>qml/QtDemo/demos/samegame/settings.js</file>
-        <file>qml/QtDemo/demos/shaders/Effects/Effect.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectBillboard.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectBlackAndWhite.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectEmboss.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectGaussianBlur.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectGlow.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectIsolate.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectPassThrough.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectPixelate.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectPosterize.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectRipple.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectSepia.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectSharpen.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectShockwave.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectSobelEdgeDetection1.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectToon.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectVignette.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectWarhol.qml</file>
-        <file>qml/QtDemo/demos/shaders/Effects/EffectWobble.qml</file>
-        <file>qml/QtDemo/demos/shaders/Content.qml</file>
-        <file>qml/QtDemo/demos/shaders/EffectSelectionPanel.qml</file>
-        <file>qml/QtDemo/demos/shaders/Logo.qml</file>
-        <file>qml/QtDemo/demos/shaders/LogoContainer.qml</file>
-        <file>qml/QtDemo/demos/shaders/main.qml</file>
-        <file>qml/QtDemo/demos/shaders/ParameterPanel.qml</file>
-        <file>qml/QtDemo/demos/shaders/Slider.qml</file>
         <file>qml/QtDemo/fonts/OFL.txt</file>
         <file>qml/QtDemo/fonts/PatrickHandSC-Regular.ttf</file>
         <file>qml/QtDemo/images/box.png</file>
@@ -227,28 +201,6 @@
         <file>qml/QtDemo/demos/samegame/content/gfx/text-p2-won.png</file>
         <file>qml/QtDemo/demos/samegame/content/gfx/yellow.png</file>
         <file>qml/QtDemo/demos/samegame/content/gfx/yellow-puzzle.png</file>
-        <file>qml/QtDemo/demos/shaders/images/particle-smoke.png</file>
-        <file>qml/QtDemo/demos/shaders/images/qt-logo.png</file>
-        <file>qml/QtDemo/demos/shaders/images/wallpaper.png</file>
-        <file>qml/QtDemo/demos/shaders/shaders/billboard.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/blackandwhite.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/emboss.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/gaussianblur_h.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/gaussianblur_v.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/glow.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/isolate.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/pixelate.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/posterize.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/ripple.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/selectionpanel.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/sepia.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/sharpen.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/shockwave.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/sobeledgedetection1.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/toon.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/vignette.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/warhol.fsh</file>
-        <file>qml/QtDemo/demos/shaders/shaders/wobble.fsh</file>
         <file>qml/QtDemo/demos/wearable/content/images/back.png</file>
         <file>qml/QtDemo/demos/wearable/content/images/back@2x.png</file>
         <file>qml/QtDemo/demos/wearable/content/images/back@3x.png</file>
@@ -615,42 +567,6 @@
         <file>qml/QtDemo/demos/3D/content/meshes/ring.obj</file>
         <file>qml/QtDemo/demos/3D/content/meshes/starfield.obj</file>
         <file>qml/QtDemo/demos/3D/planets.qml</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_pause.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_play.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_btn_stop.png</file>
-        <file>qml/QtDemo/demos/radio/images/radio_sound_icon.png</file>
-        <file>qml/QtDemo/demos/radio/images/volume.png</file>
-        <file>qml/QtDemo/demos/radio/channels.xml</file>
-        <file>qml/QtDemo/demos/radio/radio.qml</file>
-        <file>qml/QtDemo/demos/radio/VolumeButton.qml</file>
-        <file>qml/QtDemo/demos/radio/VolumePoint.qml</file>
-        <file>qml/QtDemo/demos/video/images/CloseButton.png</file>
-        <file>qml/QtDemo/demos/video/images/PauseButton.png</file>
-        <file>qml/QtDemo/demos/video/images/PlayButton.png</file>
-        <file>qml/QtDemo/demos/video/images/RateButtonForward.png</file>
-        <file>qml/QtDemo/demos/video/images/RateButtonReverse.png</file>
-        <file>qml/QtDemo/demos/video/images/StopButton.png</file>
-        <file>qml/QtDemo/demos/video/images/VolumeDown.png</file>
-        <file>qml/QtDemo/demos/video/images/VolumeUp.png</file>
-        <file>qml/QtDemo/demos/video/Content.qml</file>
-        <file>qml/QtDemo/demos/video/ContentVideo.qml</file>
-        <file>qml/QtDemo/demos/video/ControlBar.qml</file>
-        <file>qml/QtDemo/demos/video/ImageButton.qml</file>
-        <file>qml/QtDemo/demos/video/main.qml</file>
-        <file>qml/QtDemo/demos/video/PlaybackControl.qml</file>
-        <file>qml/QtDemo/demos/video/qt5_video_jens.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_kenneth.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_lars.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_samuel.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_simon.png</file>
-        <file>qml/QtDemo/demos/video/qt5_video_thiago.png</file>
-        <file>qml/QtDemo/demos/video/qt5_videos.xml</file>
-        <file>qml/QtDemo/demos/video/ScrollBar.qml</file>
-        <file>qml/QtDemo/demos/video/SeekControl.qml</file>
-        <file>qml/QtDemo/demos/video/Slider.qml</file>
-        <file>qml/QtDemo/demos/video/VideoDelegate.qml</file>
-        <file>qml/QtDemo/demos/video/VideoSelector.qml</file>
-        <file>qml/QtDemo/demos/video/VolumeControl.qml</file>
         <file>qml/QtDemo/demos/surface/Data.qml</file>
         <file>qml/QtDemo/demos/surface/heightmap.png</file>
         <file>qml/QtDemo/demos/surface/main.qml</file>

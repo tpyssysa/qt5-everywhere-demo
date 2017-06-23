@@ -39,7 +39,7 @@
 ****************************************************************************/
 
 var positions = [
-            {x:-1500,  y:-1550, gid: 0, url: "/demos/heartmonitor/main.qml", device: 3, name: "Heartrate\nMonitor"},
+            {x:-1500,  y:-1550, gid: 0, url: "demos/heartmonitor/main.qml", device: 3, name: "Heartrate\nMonitor"},
 //            {x:-2100, y:-1550, gid: 0, url: "demos/gridrssnews/main.qml", device: 7, name: "Rss Reader"},
 
             {x:1300,  y:-1600, gid: 3, url: "demos/maroon/Maroon.qml", device: 1, name: "Maroon in\n Trouble"},
