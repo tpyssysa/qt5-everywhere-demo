@@ -20,7 +20,9 @@ OTHER_FILES += \
 HEADERS += \
     filereader.h
 
-ANDROID_PACKAGE_SRC_DIR = $$PWD/android
+android {
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
+}
 
 DISTFILES += \
     android/AndroidManifest.xml \
